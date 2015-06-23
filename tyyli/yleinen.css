@@ -1,0 +1,219 @@
+/* Logo */
+
+#logo {
+  position: relative;
+  width: 380px;
+  height: 85px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  padding-top: 15px;
+}
+
+#logo a {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background: #000 url(naaspeksi-logotype.gif) no-repeat bottom;
+}
+
+/* Yleinen ulkoasu */
+
+body {
+  background: #333 url(grad.png) repeat-x scroll;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+a {
+  color: black;
+}
+
+h2 {
+  text-align: center;
+}
+
+h5 {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+td {
+  padding-left: 5px;
+  padding-right: 5px;
+  border: 1px solid #aaa;
+}
+
+th {
+  padding-left: 5px;
+  padding-right: 5px;
+  border: 1px solid black;
+  background: rgba(0,0,0,0.2);
+}
+
+th a {
+  display: block;
+}
+
+#boksi {
+  background: white;
+  border-radius: 15px;
+  border: 1px solid white;
+  width: 85%;
+  min-width: 1024px;
+  max-width: 1500px;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  font-size: 14px;
+}
+
+.cent {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+.left {
+  text-align: left;
+}
+
+.kokosivu {
+  padding: 15px;
+  border-radius: 0 0 15px 15px;
+}
+
+.eireunoja td {
+  border: 0;
+}
+
+.error {
+  color: red;
+}
+
+#tunnistaudutable {
+  width: 100%;
+  font-size: 12px;
+}
+
+#tunnistaudutable td {
+  width: 16%;
+  padding: 2px;
+}
+
+.tavis {
+  background: rgba(0,0,0,0.2);
+}
+
+.tavis:hover {
+  cursor: pointer;
+}
+
+.tekijavalittu {
+  background: rgba(0,255,0,0.2);
+}
+
+.centered {
+  text-align: center;
+}
+
+.centered table {
+  margin: 0 auto;
+  text-align: left;
+}
+
+/* Sivutus */
+
+.sivutus {
+  border-spacing: 0;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.sivutus td {
+  border: 0;
+}
+
+.sivutus td a {
+  padding: 5px;
+  display: block;
+}
+
+.sivutus td.valittu {
+  border: 2px solid black;
+}
+
+/* Linkit */
+
+#linkit td {
+  font-size: 25px;
+  width: 20%;
+  border: 0;
+}
+
+#linkit table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#linkit table td a {
+  padding: 20px;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+}
+
+/* Alalinkit */
+
+.alalinkit td {
+  border: 0;
+}
+
+.alalinkit table {
+  width: 100%;
+  text-align: center;
+  table-layout: fixed;
+}
+
+.alalinkit table td a {
+  background: rgba(0,0,0,0.2);
+  padding: 10px;
+  display: block;
+  border: 1px solid black;
+}
+
+/* Footer */
+
+#footer {
+  color: #ddd;
+  width: 85%;
+  min-width: 1024px;
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#footer table {
+  font-size: 11px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 96%;
+  table-layout: fixed;
+}
+
+.even td {
+  background: rgba(0,0,0,0.1);
+}

@@ -1,0 +1,39 @@
+<?php
+
+// Tietokanta-asetukset
+
+$mysql_host = 'localhost';
+$mysql_user = '';
+$mysql_passwd = '';
+$db = '';
+
+// Taulut
+
+$prefix = '2015';
+$table['tapahtumat'] = $prefix.'_tapahtumat';
+$table['tapahtumailmot'] = $prefix.'_tapahtumailmot';
+$table['tekijat'] = $prefix.'_tekijat';
+$table['tilaukset'] = $prefix.'_tilaukset';
+$table['tuotteet'] = $prefix.'_tuotteet';
+$table['alueet'] = $prefix.'_alueet';
+$table['alueilmot'] = $prefix.'_alueilmot';
+$table['kyydit'] = $prefix.'_kyydit';
+$table['kyytiin'] = $prefix.'_kyytiin';
+
+// Salasanat
+
+$salt = '';
+$pass_admin = crypt('', $salt);
+$pass_yleis = crypt('', $salt);
+
+// Muut tietokannat
+
+$oldies = array( '2013' => crypt('', $salt),
+                 '2014' => crypt('', $salt) );
+
+// Muut asetukset
+
+$rainaintra = '';
+$sivukoko = 200;
+
+?>

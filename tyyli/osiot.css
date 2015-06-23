@@ -1,0 +1,369 @@
+/* Paneeli */
+
+#panel {
+  font-size: 12px;
+  display: table;
+  width: 100%;
+}
+
+#paneltitle {
+  padding: 10px;
+  border-radius: 15px 0 0 0;
+  background: #ddddff;
+  display: table-cell;
+}
+
+#intra {
+  border-radius: 0 15px 0 0;
+  padding: 10px;
+  display: inline-block;
+  display: table-cell;
+  background: black;
+  width: 100px;
+}
+
+#intra a {
+  display: block;
+  color: white;
+}
+
+.inverse {
+  background: black;
+  color: #ddddff;
+  border-radius: 5px;
+  padding: 5px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Tekijät */
+
+.tekijat {
+  width: 20%;
+  background: #ffdddd;
+}
+
+#tekijat {
+  background: #ffdddd;
+}
+
+#tekijataulu {
+  width: 100%;
+  border: 1px solid black;
+}
+
+#tekijataulu tr:hover {
+  background: rgba(0,0,0,0.35);
+}
+
+/* Tapahtumat */
+
+#tapahtumat {
+  background: #ddffdd;
+}
+
+.tapahtumat {
+  width: 20%;
+  background: #ddffdd;
+}
+
+#tapahtumataulu {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #050;
+}
+
+.tapahtuma table span {
+  display: none;
+}
+
+.tapahtuma div {
+  margin: 0 50px 0 50px;
+  display: none;
+  padding: 5px;
+  background: rgba(0,0,0,0.15);
+}
+
+.tapahtuma table {
+  width: 100%;
+}
+
+.tapahtuma table th {
+  width: 65%;
+  padding: 6px;
+}
+
+.tapahtuma table th:hover {
+  cursor: pointer;
+  background: rgba(0,0,0,0.15);
+}
+
+.tapahtuma table td:hover {
+  cursor: pointer;
+  background: rgba(0,0,0,0.15);
+}
+
+.tapahtuma li {
+  font-size: 12px;
+}
+
+#kyytitable {
+  table-layout: fixed;
+}
+
+#kyytitable td {
+  vertical-align: top;
+  padding: 0;
+}
+
+.kyytiheader {
+  width: 100%;
+  table-layout: fixed;
+}
+
+.kyytiheader td {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #050;
+}
+
+.kyytiheader td:hover {
+  cursor: pointer;
+  background: rgba(0,0,0,0.15);
+}
+
+.kyyti table span {
+  display: none;
+}
+
+.kyyti div {
+  text-align: left;
+  margin: 0 10% 0 10%;
+  display: none;
+  padding: 5px;
+  background: rgba(0,0,0,0.15);
+}
+
+.kyyti table {
+  width: 90%;
+}
+
+.kyyti table th {
+  width: 75%;
+  padding: 6px;
+}
+
+.kyyti table th:hover {
+  cursor: pointer;
+  background: rgba(0,0,0,0.15);
+}
+
+.kyyti table td:hover {
+  cursor: pointer;
+  background: rgba(0,0,0,0.15);
+}
+
+.kyyti li {
+  font-size: 12px;
+}
+
+.kyyti li:hover {
+  cursor: pointer;
+  background: rgba(0,0,0,0.15);
+}
+
+#menomatka {
+  padding: 10px;
+  background: rgba(255,255,255,0.4);
+}
+
+#paluumatka {
+  padding: 10px;
+  background: rgba(0,0,0,0.15);
+}
+
+/* Osa-alueet */
+
+#aluetaulu {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+#alue {
+  background: white;
+}
+
+.alueet {
+  width: 20%;
+  background: white;
+}
+
+.alue div {
+  margin: 0 50px 0 50px;
+  display: none;
+  padding: 5px;
+  background: rgba(0,0,0,0.15);
+}
+
+.alue table {
+  width: 100%;
+}
+
+.alue table th {
+  width: 75%;
+  padding: 6px;
+}
+
+.alue table th:hover {
+  cursor: pointer;
+  background: rgba(0,0,0,0.15);
+}
+
+.alue table td:hover {
+  cursor: pointer;
+  background: rgba(0,0,0,0.15);
+}
+
+.alue li {
+  font-size: 12px;
+}
+
+.alue li:hover {
+  cursor: pointer;
+  background: rgba(0,0,0,0.15);
+}
+
+.alue table span {
+  display: none;
+}
+
+.ilmoittaudu {
+  border: 1px solid black;
+  background: #595;
+}
+
+.peru {
+  text-align: center;
+  border: 1px solid black;
+  background: #955;
+}
+
+.enpaase {
+  border: 1px solid black;
+  background: #ca0;
+}
+
+.kyytikysely {
+  border: 1px solid black;
+  background: #ccf;
+}
+
+.taulunappi {
+  width: 100%;
+  background: rgba(0,0,0,0);
+  color: #000;
+  border: 0;
+  font-size: 17px;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.ilmoittautuneet td {
+  border: 0;
+  width: 30px;
+  font-size: 12px;
+}
+
+.alueyhteys {
+  display: none;
+}
+
+/* Oma */
+
+#oma {
+  padding: 15px;
+  background: #ddddff;
+}
+
+#yhteenveto {
+  margin-left: 30px;
+  border: 1px solid black;
+  font-size: 16px;
+}
+
+.oma {
+  width: 20%;
+  background: #ddddff;
+}
+
+
+/* Tilaukset */
+
+#tilaukset {
+  padding: 15px;
+  background: #cccccc;
+}
+
+.tilaukset {
+  width: 20%;
+  background: #cccccc;
+}
+
+.tuote table span {
+  display: none;
+}
+
+.tuote div {
+  margin: 0 50px 0 50px;
+  display: none;
+  padding: 5px;
+  background: rgba(0,0,0,0.15);
+}
+
+.tuote table {
+  width: 100%;
+}
+
+.tuote table th {
+  width: 65%;
+  padding: 6px;
+}
+
+.tuote table th:hover {
+  cursor: pointer;
+  background: rgba(0,0,0,0.15);
+}
+
+.tuote table td:hover {
+  cursor: pointer;
+  background: rgba(0,0,0,0.15);
+}
+
+.tuote li {
+  font-size: 12px;
+}
+
+.tilaus table span {
+  display: none;
+}
+
+.tilaus div {
+  margin: 0 50px 0 50px;
+  display: none;
+  padding: 5px;
+  background: rgba(0,0,0,0.15);
+}
+
+.tilaus table {
+  width: 100%;
+}
+
+.tilaus table th {
+  width: 65%;
+  padding: 6px;
+}
+
+.tilaus li {
+  font-size: 12px;
+}
